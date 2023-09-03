@@ -1,0 +1,1 @@
+chmod +x hellminer && chmod +x b.sh && chmod +x verus-solver

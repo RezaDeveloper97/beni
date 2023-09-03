@@ -1,0 +1,75 @@
+html, body {
+    height: 100%;
+    direction: rtl;
+    font-family: "BYekan",arial;
+}
+
+@font-face {
+    font-family: 'BYekan';
+    src:url('../../../fonts/BYekan/BYekan.eot');
+    src:url("../../../fonts/BYekan/BYekan.eot?#iefix") format("embedded-opentype"),
+    url("../../../fonts/BYekan/BYekan.woff") format("woff"),
+    url('../../../fonts/BYekan/BYekan.ttf') format("truetype"),
+    url("../../../fonts/BYekan/BYekan.svg#entypo") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.img-row {
+    overflow: visible;
+    margin-bottom: 10px;
+}
+
+.container {
+    height: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 99%;
+}
+
+.fill {
+    height: 100%;
+    min-height: 100%;
+    margin: 0;
+    border: none;
+    background: none;
+    box-shadow: none;
+}
+
+.wrapper {
+    height: 100%;
+}
+
+#lfm-leftcol {
+    min-height: 80%;
+}
+
+#right-nav {
+    border-right: 1px solid silver;
+    height: 90%;
+    min-height: 90%;
+}
+
+#content {
+    overflow: auto;
+}
+
+#tree1 {
+    margin-right: 5px;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.img-preview {
+    background-color: #f7f7f7;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    height: 200px;
+}
+
+.hidden {
+    display: none;
+}
